@@ -51,7 +51,7 @@ If you make changes to your application and need to update the deployment, follo
    Alternatively, if using a new image tag, update your Helm chart values to reflect the new tag and run:
 
     ```markdown
-    helm upgrade fishsearcher helm/fishsearcher
+    helm upgrade fishsearcher peretzrickett/fishsearcher
     ```
 
 ### Note
