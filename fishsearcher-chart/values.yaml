@@ -28,7 +28,7 @@ ingress:
   enabled: false
   annotations: {}
   hosts:
-    - host: chart-example.local
+    - host: fishsearcher-chart.local
       paths:
         - path: /
           pathType: ImplementationSpecific
