@@ -52,11 +52,7 @@ helm upgrade fishsearcher-release ./fishsearcher-chart
 
 ### 5. Access the Application
 
-To access the Fishsearcher application, use the following command to get the URL:
-
-```bash
-minikube service fishsearcher-release-fishsearcher-chart --url
-```
+To access the Fishsearcher application, follow the instructions from the helm installation on a terminal to setup the service with can them be accessed by browser via http://127.0.0.1:8080/analyze
 
 ## Updating the Application
 
